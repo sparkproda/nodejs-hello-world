@@ -2,7 +2,7 @@ const http = require('http');
 
 const server = http.createServer((request, response) => {
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end(" !!!! Hello Eric super Sparkproda !!!!" );
+    response.end(" !!!! Welcome to Sparkproda !!!!" );
 });
 
 const port = process.env.PORT || 3000;
